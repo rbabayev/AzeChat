@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\AzeChat\AzeChat\bin\Debug\AzeChat.exe.config
+C:\Users\Admin\source\repos\AzeChat\AzeChat\bin\Debug\AzeChat.exe
+C:\Users\Admin\source\repos\AzeChat\AzeChat\bin\Debug\AzeChat.pdb
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\AzeChat.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\AzeChat_MarkupCompile.cache
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\AzeChat_MarkupCompile.lref
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\AzeChat.g.resources
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\AzeChat.Properties.Resources.resources
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\AzeChat.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\AzeChat.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\AzeChat.exe
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\AzeChat.pdb
+C:\Users\Admin\source\repos\AzeChat\AzeChat\obj\Debug\AzeChat_Content.g.cs

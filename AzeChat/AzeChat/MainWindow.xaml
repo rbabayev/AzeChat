@@ -1,0 +1,42 @@
+﻿<Window x:Class="AzeChat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AzeChat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="450">
+    <Grid Background="SkyBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="450"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="ChatChat" Height="40" HorizontalAlignment="Center" FontFamily="Arial Black" FontSize="25" FontWeight="Bold" Foreground="DarkSlateBlue"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <ListBox x:Name="ChatList" Margin="5" BorderThickness="5" BorderBrush="DarkSlateBlue" Height="430" Background="AliceBlue" SelectionChanged="ChatList_SelectionChanged">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" Margin="5" />
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBox Height="70" Width="320" Margin="10,5,25,5" BorderThickness="5" BorderBrush="DarkSlateBlue" TextChanged="TextBox_TextChanged_1" />
+                <Button x:Name="Send" Height="40" Width="40" Margin="10" BorderThickness="3" Background="Red" BorderBrush="DarkRed" RenderTransformOrigin="0.5,0.5" Click="Send_Click" Grid.Column="1" />
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+</Window>
